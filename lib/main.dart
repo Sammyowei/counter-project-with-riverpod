@@ -68,7 +68,6 @@ class HomePage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final counter = ref.watch(counterProvider);
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
